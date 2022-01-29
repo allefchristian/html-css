@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+    <style>
+mark {
+    background-color: lime;
+}
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (não semântica) não tem significado, só forma, sem sentido</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a  tag STRONG (semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+    <p>ATENÇÃO: Ctrl-U para mais informações</p>
+    <!-- para envelopar alguma palavra ou trecho -->
+    <!-- selecione a parte a ser envelopada -->
+    <!-- utilize o atalho Ctrl-Shift-P -->
+    <!-- procure por abb e selecione a opção -->
+    <!-- Wrap with Abbreviation -->
+    <!-- informe a tag de envelopamento e clique Enter -->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+    <!-- Ctrl-Shift-P, Enter, P, Enter -->
+    <!-- Ctrl-Shift-P, Enter, EM, Enter -->
+    <!-- a seguir conteúdo do video 23 -->
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+    <!-- mark style="background-color: rgb(49, 220, 250);" -->
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark>no final</p>
+    <!-- para configurar estilo de mais de um elemento ao mesmo tempo, considere utilizar a tag STYLE no campo head, identificando os seletores -->
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <!-- a tag BIG é obsoleta pois não tem sentido, já que sua função pode ser configurada no CSS, já a tag SMALL tem sentido, haja vista a presença de letras pequenas em propagandas e contratos, por exemplo -->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. Utiliza-se a tag DEL.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. Tag INS.</p>
+    <!-- sentido de preenche esta lacuna-->
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>
+        +3. Tag SUP.</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O. Tag SUB.</p>
+</body>
+</html>

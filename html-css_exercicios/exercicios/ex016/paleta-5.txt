@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.Color-Vert-Bois-1-hex { color: #697B6B; }
+.Color-Vert-Bois-2-hex { color: #242616; }
+.Color-Vert-Bois-3-hex { color: #73654D; }
+.Color-Vert-Bois-4-hex { color: #BFB39B; }
+.Color-Vert-Bois-5-hex { color: #55634A; }
+
+/* Color Theme Swatches in RGBA */
+.Color-Vert-Bois-1-rgba { color: rgba(105, 123, 107, 1); }
+.Color-Vert-Bois-2-rgba { color: rgba(35, 38, 21, 1); }
+.Color-Vert-Bois-3-rgba { color: rgba(114, 100, 77, 1); }
+.Color-Vert-Bois-4-rgba { color: rgba(191, 179, 154, 1); }
+.Color-Vert-Bois-5-rgba { color: rgba(84, 98, 73, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Color-Vert-Bois-1-hsla { color: hsla(126, 7, 44, 1); }
+.Color-Vert-Bois-2-hsla { color: hsla(67, 26, 11, 1); }
+.Color-Vert-Bois-3-hsla { color: hsla(37, 19, 37, 1); }
+.Color-Vert-Bois-4-hsla { color: hsla(39, 21, 67, 1); }
+.Color-Vert-Bois-5-hsla { color: hsla(93, 14, 33, 1); }
